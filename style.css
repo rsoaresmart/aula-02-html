@@ -6,19 +6,43 @@ h1{
     font-size: 30px;
 }
 .p-class{
-    color:goldenrod;
+    color:black;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 18px;
     padding: 14px;
     border-radius: 7px;
-    background-color: antiquewhite;
+    transition: 1s;
+    background-color: yellow;
+}
+.p-class:hover{
+    font-size: 25px;
+    cursor: pointer;
+    background-color: blue;
 }
 
 #p-id{
-    color: rgb(235, 64, 64);
+    color:white;
     font-weight: 900;
-    padding: 15px;
-    border-radius: 7px;
-    background-color: aqua;
+    padding: 25px;
+    border-radius: 10px;
+    background-color:black;
 
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+
+    border-radius: 50%;
+    transition: 2s;
+}
+.box:hover{
+    color: yellow;
+    cursor: pointer;
+    font-size: 25px;
+    background-color: blue;
 }
