@@ -22,6 +22,6 @@
  * [x] compiar os 3 ultimos comandos do repository
 
  #### 2. Passo para alterar um projeto iniciado
- * [] git add .
- * [] git commit -m updated-2
- * [] git push
+ * [x] git add .
+ * [x] git commit -m updated-2
+ * [x] git push
