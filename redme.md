@@ -15,3 +15,7 @@
  [x] 1. criar um repositorio no git.
  [x] 2. git init
  [0] 2.1 git status
+ [x] 3. git add .
+ [x] 4.1 git commit -m " esse e um comentário "
+ [x] 4.2 ( errado ) git commit -m esse e um comentário
+ [x] 4.3 git commit -m esse-e-um-comentário
