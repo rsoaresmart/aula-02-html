@@ -1,0 +1,59 @@
+/*** esse e um comentario */
+
+:root{
+    --bg-background--1: rgb(240, 25, 25);
+    --bg-background--2: yellow;
+    --bg-backgraund--3: blueviolet;
+    --bg-backgraund--4: #000;
+}
+
+body{
+    background-color: var( --bg-backgraund--4 );
+}
+
+/** centralizar 
+    body{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+*/
+
+
+#box-green{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: var(--bg-background--1);
+}
+
+#box-yellow{
+    margin: 20px;
+    width: 100px;
+    display: flex;
+    height: 100px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-background--2);
+}
+
+#box-red{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: var(--bg-backgraund--3);
+}
+
+h1{
+    color: wheat;
+}
